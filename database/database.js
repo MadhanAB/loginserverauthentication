@@ -5,7 +5,7 @@ const connectDB = async()=>{
 
 try{
 
-    const connect = await mongoose.connect("mongodb://localhost:27017/loginathentication")
+    const connect = await mongoose.connect("mongodb+srv://Naresh:Naresh05@cluster0.b9z0by5.mongodb.net/loginathentication")
      console.log("database connnected");
 
 }catch (error){
