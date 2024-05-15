@@ -15,7 +15,7 @@ const app = express();
 
 app.use(cookieParser());
 app.use(cors({
-  origin: ["http://localhost:3000","http://yourliveserver.com"],
+  origin: ["http://localhost:3000","https://bejewelled-rabanadas-734881.netlify.app"],
   credentials:true,
 }));
 
